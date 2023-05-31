@@ -1,4 +1,4 @@
-number_cardinality = (n) => {
+function number_cardinality(n) {
     if (n % 10 == 0) {
         return "zero";
     } else if (n % 10 == 5) {
